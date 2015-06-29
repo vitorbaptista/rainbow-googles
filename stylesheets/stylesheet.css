@@ -69,7 +69,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #e71c39;
-  background-image: linear-gradient(120deg, #e71c39, #f58f23, #5b439b); }
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -255,3 +255,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.thumbnail {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 2em 0;
+}
